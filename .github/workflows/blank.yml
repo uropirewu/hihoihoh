@@ -7,8 +7,8 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        node-version: [8.x, 10.x, 12.x, 14.x, 16x]
-        mongodb-version: [4.0, 4.2, 4.4, 6.6]
+        node-version: [8.x, 10.x, 12.x, 14.x, 16x, 15x, 13x, 14x,18x, 17x]
+        mongodb-version: [4.0, 4.2, 4.4, 6.6 7.7, 8.8 9.9, 8.6]
         redis-version: [4 5]
 
     steps:
